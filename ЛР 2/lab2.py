@@ -45,7 +45,7 @@ def draw_triangle(x0, y0, z0, x1, y1, z1, x2, y2, z2, z_buf, matrix, color):
                     matrix[y, x] = color
 
 
-img_mat = np.zeros((1700, 1700, 3), dtype=np.uint8)
+img_mat = np.zeros((2000, 2000, 3), dtype=np.uint8)
 zbuf = np.full((2000, 2000), np.inf, dtype=np.float64)
 
 
